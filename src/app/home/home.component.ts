@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() { }
-
+headername="Gopinath N";
+salary="10000"
   ngOnInit(): void {
   }
 

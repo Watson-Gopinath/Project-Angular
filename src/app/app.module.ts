@@ -7,9 +7,10 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { StatusComponent } from './status/status.component';
 import { HomeComponent } from './home/home.component';
-import { LoginComponent } from "./login/login.component";
+//import { LoginComponent } from "./login/login.component";
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
+//import { AccessRoutingModule } from './access/access-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EditComponent } from './edit/edit.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LoginComponent
+    //LoginComponent,
+    //AccessRoutingModule
 ],
   providers: [],
   bootstrap: [AppComponent]

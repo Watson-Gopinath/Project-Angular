@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { RegistorComponent } from './registor/registor.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:"registor",component:RegistorComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
