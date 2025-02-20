@@ -10,6 +10,9 @@ import { HomeComponent } from './home/home.component';
 //import { LoginComponent } from "./login/login.component";
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './login/login.component';
 //import { AccessRoutingModule } from './access/access-routing.module';
 
 @NgModule({
@@ -20,11 +23,15 @@ import { EditComponent } from './edit/edit.component';
     StatusComponent,
     HomeComponent,
     AddComponent,
-    EditComponent
+    EditComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    
     //LoginComponent,
     //AccessRoutingModule
 ],
